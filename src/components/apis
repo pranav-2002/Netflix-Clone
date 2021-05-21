@@ -1,0 +1,22 @@
+
+API KEY - 86ed3de4398a639b0830f1b0d2efb577
+
+Netflix Originals - https://api.themoviedb.org/3/discover/tv?api_key=86ed3de4398a639b0830f1b0d2efb577&with_networks=213
+
+Trending - https://api.themoviedb.org/3/trending/all/week?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US
+
+Top Rated - https://api.themoviedb.org/3/movie/top_rated?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US
+
+Acton Movies - http://api.themoviedb.org/3/discover/movie?api_key=86ed3de4398a639b0830f1b0d2efb577&with_geners=28
+
+Top Comedy - https://api.themoviedb.org/3/movie/popular?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US&page=6
+
+Top Horror - https://api.themoviedb.org/3/discover/movie?api_key=86ed3de4398a639b0830f1b0d2efb577&with_genres=27
+
+Top Romance - https://api.themoviedb.org/3/movie/top_rated?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US&page=9
+
+Top Documentaries - https://api.themoviedb.org/3/movie/popular?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US&page=9
+
+Avengers - https://api.themoviedb.org/3/search/movie?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US&query=avengers&page=1&include_adult=false
+
+https://youtu.be/1TCw9wO1neA?t=7929
