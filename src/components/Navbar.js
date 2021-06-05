@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "../images/netflix-logo.png";
 import "./Navbar.css";
 import { useState, useEffect } from "react";
+import {Link} from 'react-router-dom';
 
 function Navbar() {
   const [scroll, setScroll] = useState(false);
@@ -24,11 +25,11 @@ function Navbar() {
     <div className={`nav ${scroll && "nav__black"}`}>
       <div className="nav__contents">
         <img src={Logo} alt="logo" className="nav__logo" />
-        <img
+        <Link to="/login"><img
           src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
           alt="avatar"
           className="nav__avatar"
-        />
+        /></Link>
       </div>
     </div>
   );

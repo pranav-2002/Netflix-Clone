@@ -12,7 +12,7 @@ function Banner() {
   }
 
   const baseUrl =
-    "http://api.themoviedb.org/3/trending/all/week?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US";
+    "https://api.themoviedb.org/3/trending/all/week?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US";
 
   const imgUrl = "https://image.tmdb.org/t/p/original";
 

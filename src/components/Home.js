@@ -2,6 +2,7 @@ import React from "react";
 import Banner from "./Banner";
 import Navbar from "./Navbar";
 import Row from "./Row";
+import "./Home.css";
 
 function Home() {
   return (
@@ -21,11 +22,11 @@ function Home() {
         title="Top Rated"
         fetchUrl="https://api.themoviedb.org/3/movie/top_rated?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US"
       />
-      <Row  
+      <Row
         title="Action Movies"
-        fetchUrl="http://api.themoviedb.org/3/discover/movie?api_key=86ed3de4398a639b0830f1b0d2efb577&with_geners=28"
+        fetchUrl="https://api.themoviedb.org/3/discover/movie?api_key=86ed3de4398a639b0830f1b0d2efb577&with_geners=28"
       />
-      <Row  
+      <Row
         title="Avengers Movies"
         fetchUrl="https://api.themoviedb.org/3/search/movie?api_key=86ed3de4398a639b0830f1b0d2efb577&language=en-US&query=avengers&page=1&include_adult=false"
       />

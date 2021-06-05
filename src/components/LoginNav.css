@@ -1,0 +1,30 @@
+.login__nav__main{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.login__nav__logo{
+    width: 130px;
+    object-fit: contain;
+    position: relative;
+    left: 60px;
+    top: 25px;
+    z-index: 100;
+}
+
+.login__nav__sign{
+    text-decoration: none;
+    color: black;
+    border: 1px solid #e50914;
+    background-color: #e50914;
+    padding: 7px 17px;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #fff;
+    position: relative;
+    top: 25px;
+    right: 50px;
+    border-radius: 3px;
+    z-index: 100;
+}
